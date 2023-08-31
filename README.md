@@ -2,7 +2,7 @@
 
 ## Modul Dasar Pemrograman C
 
-### Modul : Pengenalan Pemrograman C
+### Modul 1 : Pengenalan Pemrograman C
 * Pengenalan Bahasa C
 * Identifier
 * Variabel, Konstanta, dan Literal
@@ -10,17 +10,17 @@
 * Operator Aritmatika
 * Operator Logika
 
-### Modul 1 : 
+### Modul 2 : 
 * 
 * 
 * 
 
-### Modul 2 :
+### Modul 3 :
 * 
 * 
 * 
 
-### Modul 3
+### Modul 4 :
 * 
 * 
 
