@@ -217,7 +217,7 @@ Ini adalah sebuah string
 ```
 
 Kita juga dapat menambahkan escape sequence pada string. Escape Sequence adalah urutan karakter yang digunakan untuk memformat output dan tidak ditampilkan ketika dicetak ke layar. Setiap karakter mempunyai fungsi tertentu. lihatlah tabel escape sequence berikut
-![a](https://github.com/azariafwn/img/blob/main/escape%20sequence.md)
+![a](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/escape-sequence.md)
 Mari kita ubah statement `printf()` di atas menjadi:
 
 ```c
@@ -283,7 +283,7 @@ Output
  
 Perhatikan ilustrasi di bawah.
  
-![a](https://github.com/azariafwn/img/blob/main/printf.md)
+![a](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/printf.md)
 
 Dengan menyertakan format specifier dari tipe data yang bersesuaian, kita dapat mencetak nilai dari variabel tersebut. 
 + Fungsi `printf()` di atas mencetak string dengan nilai dua variabel (dua format specifier yang dipisahkan spasi).
