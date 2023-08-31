@@ -40,11 +40,23 @@
 
     + [Operator Assignment](#operator-assignment)
     + [Operator Aritmatika](#operator-aritmatika)
-    + [Operator Increment dan Decrement](#operator-increment-dan-decrement)
-    + [Operator Relasional](#operator-relasional)
+    + [Operator Increment dan Decrement](#operator-increment-dan-decrement) 
+
+- [Operator Logika](#operator-Logika)
+
+    + [Operator Perbandingan](#operator-perbandingan)
+    + [Operator Logika](#operator-logika)
     + [Operator Bitwise](#operator-bitwise)
+    
+- [Operator Lain](#operator-lain)
     + [Operator Gabungan](#operator-gabungan)
-    + [Operator Lain](#operator-lain)
+    + [Operator Size-of](#operator-sizeof)
+    + [Operator Address-of](#operator-Address-of)
+    + [Operator Dereference](#operator-dereference)
+    + [Operator Kondisional](#operator-kondisional)
+    + [Operator Koma](#operator-koma)
+    + [Operator Subsrcipt](#operator-subscript)
+
 
 # IDE 
 ## (Integrated Development Environment)
@@ -536,5 +548,202 @@ Karakter dalam bahasa C sebenarnya adalah bilangan bulat. Setiap karakter mempun
 ![cek tabel tipe karakter](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/tipe-data-karakter.md)
 
 Penggunaan paling umum dari tipe data di atas adalah untuk merepresentasikan satu karakter. Misalnya, `‘A’`, `‘-‘`, dan sebagainya.
+
+[< Kembali ke Daftar Isi](#daftar-isi)
+
+# Operator Aritmatika
+
+## Operator Assignment
+
+**Operator Assignment** digunakan untuk mengisikan (assign) sebuah nilai ke variabel. Simbol yang biasa digunakan adalah tanda sama dengan  `=`. Contohnya:
+
+```c
+int x, y;  
+x = 4;  
+y = 3;  
+x = x + y; // x = 7  
+y = x + x; // y = 14 
+```
+
+## Operator Aritmatika
+
+Seperti namanya, **operator aritmatika** melakukan operasi layaknya pada matematika seperti penjumlahan, pengurangan, pembagian dsb. Beberapa operator menggunakan simbol yang sama pada matematika (penjumlahan dengan simbol `‘+’`, pengurangan dengan `‘-‘`, dst.). Operator-operator aritmatika pada bahasa C adalah sebagai berikut.
+
+| Simbol | Operasi                                               | Contoh   |
+|:------:| ----------------------------------------------------- | :------: |
+| +      | Penjumlahan pada dua operan                           | `a + b`  |
+| -      | Pengurangan pada dua operan                           | `a - b`  |
+| *      | Perkalian pada dua operan                             | `a * b`  |
+| /      | Pembagian pada dua operan                             | `a / b`  |
+| %      | Menghitung sisa pembagian dua operan (operasi modulo) | `a % b`  |
+
+## Operator Increment dan Decrement
+
+Operator `++` disebut dengan operator **increment**, sedangkan operator `--` merupakan operator **decrement**. Kedua operator ini digunakan untuk menambah (increment)/mengurangi (decrement) nilai dari suatu variabel sebanyak satu.
+
+Terdapat dua cara untuk menggunakan operator ini.
+
++ **Prefix** - yakni dengan meletakkan operator increment/decrement didepan nama variabel. 
+
+    ```c
+    int a, b;  
+    a = 5;  
+    ++a; // Nilai a sekarang adalah 6  
+    --a; // Nilai a sekarang adalah 5
+    ```
+
+    Cara kerja dari operator increment/decrement prefix adalah dengan menambahkan/mengurangi nilai variabel sebanyak satu terlebih dahulu, sebelum operan tersebut digunakan pada operasi lainnya pada sekuens intstruksi yang sama. Untuk lebih jelasnya, perhatikan potongan kode berikut
+
+    ```c
+    int a, b;  
+    a = 5;  
+    b = ++a; // Nilai b sekarang adalah 6  
+    a = --b; // Nilai a sekarang adalah 5 
+    ```
+
+    Di sini, saat instruksi `b = ++a;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` ditambahkan satu terlebih dahulu, kemudian baru di-assign nilainya ke variabel `b`.
+
++ **Postfix** - yakni dengan meletakkan operator increment/decrement di belakang nama variabel. Cara kerja dari operator increment/decrement postfix berbeda dari prefix. Pada postfix, nilai variabel akan ditambah satu setelah operan digunakan pada operasi lainnya pada sekuens instruksi yang sama. Perhatikan potongan kode berikut.
+
+    ```c
+    int a, b;  
+    a = 5;  
+    b = a++; // Nilai b sekarang adalah 5  
+    a = b--; // Nilai a sekarang adalah 5 
+    ```
+
+    Di sini, saat instruksi `b = a++;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` akan di-assign terlebih dahulu ke variabel `b`, kemudian baru ditambahkan satu. Karena itulah variabel `b` mendapat nilai dari `a` sebelum terjadi penambahan.
+
+# Operator Logika
+
+## Operator Perbandingan
+
+**Operator Perbandingan** digunakan untuk memeriksa relasi dan membandingkan nilai dari dua operan. Jika benar akan menghasilkan nilai **TRUE** (direpresentasikan angka 1), jika salah maka akan menghasilkan nilai **FALSE** (direpresentasikan angka 0).
+
+Berikut adalah operator relasional dalam bahasa C.
+
+| Operator                | Simbol   | Keterangan                                                                                            | Contoh                                           |
+| ----------------------- | :----:   | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Sama dengan             | ==       | Digunakan untuk memeriksa apakah kedua operan memiliki nilai yang sama.                               | 5 == 2 (FALSE)<br>5 == 5 (TRUE)                  |
+| Tidak Sama dengan       | !=       | Digunakan untuk memeriksa apakah kedua operan memiliki nilai yang tidak sama.                         | 5 != 2 (TRUE)<br>5 != 5 (FALSE)                  |
+| Lebih besar             | >        | Digunakan untuk membandingkan apakah operan pertama lebih besar nilainya dari operan kedua.           | 5 > 2 (TRUE)<br>5 > 5 (FALSE)<br>2 > 4 (FALSE)   |
+| Lebih kecil             | <        | Digunakan untuk membandingkan apakah operan pertama lebih kecil nilainya dari operan kedua.           | 5 < 2 (FALSE)<br>5 < 5 (FALSE)<br>2 < 4 (TRUE)   |
+| Lebih besar sama dengan | >=       | Digunakan untuk membandingkan apakah operan pertama lebih besar atau sama nilainya dari operan kedua. | 5 >= 2 (TRUE)<br>5 >= 5 (TRUE)<br>2 >= 4 (FALSE) |
+| Lebih kecil sama dengan | <=       | Digunakan untuk membandingkan apakah operan pertama lebih kecil atau sama nilainya dari operan kedua. | 5 <= 2 (FALSE)<br>5 <= 5 (TRUE)<br>2 <= 4 (TRUE) |
+
+## Operator Logika
+
+**Operator Logika** digunakan untuk melakukan tes pada kondisi/ekspresi, apakah kondisi tersebut benar atau salah. Operator logika hanya akan menghasilkan nilai **TRUE** (jika benar) atau **FALSE** (jika salah). TRUE direpresentasikan oleh angka 1, sedangkan FALSE oleh angka 0.
+
+Operator-operator logika dalam bahasa C adalah sebagai berikut.
+
+| Operator                | Simbol   | Keterangan                                                                                            | Nilai Kebenaran                                              |
+| ----------------------- |:------:  | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Logical NOT             | !        | Operator NOT digunakan untuk membalikkan kondisi, TRUE menjadi FALSE dan FALSE menjadi TRUE.          | `!1 = 0`<br>`!0 = 1`                                         |
+| Logical AND             | &&       | Operator AND akan menghasilkan nilai TRUE jika kedua operan mempunyai nilai TRUE.                     | `1 && 1 = 1`<br>`0 && 1 = 0`<br>`1 && 0 = 0`<br>`0 && 0 = 0` |
+| Logical OR              | \|\|      | Operator OR akan menghasilkan nilai TRUE jika salah satu operan mempunyai nilai TRUE.                | `1 \|\| 1 = 1`<br>`0 \|\| 1 = 1`<br>`1 \|\| 0 = 1`<br>`0 \|\| 0 = 0` |
+
+> Operator Logika **NOT** merupakan operator unary yang artinya hanya pada bekerja pada satu operan
+
+Operator logika pada umumnya digunakan bersamaan dengan operator relasional untuk melakukan tes pada ekspresi yang berhubungan dengan kebenaran suatu kondisi. Penggunaan paling umum adalah untuk melakukan percabangan (akan dipelajari di bagian selanjutnya).
+
+Contoh:
+
+```c
+int a, b, c, d;  
+a = 11;  
+b = 24;  
+c = 11;  
+d = ((a == c) && (b > a));               // 1 (TRUE)  
+d = ((a >= b) || (a < c));               // 0 (FALSE)  
+d = ((b != b) || (b > c)) && (c == a);   // 1 (TRUE) 
+```
+
+## Operator Bitwise
+
+**Operator Bitwise**, seperti namanya digunakan untuk melakukan operasi pada dua operan dalam skala biner (bilangan basis 2). Sebelum mempelajari lebih lanjut cara kerja operasi bitwise, sebaiknya kamu harus paham terlebih dahulu mengenai bilangan dalam basis biner.
+
+Terdapat 6 jenis operator bitwise, yakni **AND**, **OR**, **XOR**, **COMPELEMENT**, **SHIFT LEFT**, dan **SHIFT RIGHT**. Untuk lebih memahami perbedaan cara kerja operator bitwise, perhatikan tabel berikut.
+
+| Operator                | Simbol | Keterangan                                                                                                                             |
+| ----------------------- | :----: | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Bitwise AND             | &      | Mengevaluasi bit dari dua operan. Menghasilkan 1 apabila keduanya 1, jika tidak menghasilkan nilai 0.                                  |
+| Bitwise OR              | \|     | Mengevaluasi bit dari dua operan. Menghasilkan 1 apabila salah satu nilainya 1, jika keduanya 0, maka menghasilkan nilai 0.            |
+| Bitwise XOR             | ^      | Mengevaluasi bit dari dua operan. Menghasilkan 1 apabila bit pada kedua operan nilainya berbeda. Jika sama, maka menghasilkan nilai 0. |
+| Bitwise COMPLEMENT      | ~      | Membalik semua nilai bit, dari 1 menjadi 0 dan 0 menjadi 1 (dalam panjang bit).                                                        |
+| Bitwise SHIFT LEFT      | <<     | Menggeser bit ke kiri sebanyak n (operan kedua).                                                                                       |
+| Bitwise SHIFT RIGHT     | >>     | Menggeser bit ke kanan sebanyak n (operan kedua).                                                                                      |
+
+# Operator Lain
+
+## Operator Gabungan
+
+**Operator Gabungan** adalah operator yang terdiri dari gabungan dua operator. Tujuan dari operator gabungan adalah untuk mempersingkat penulisan kode. Berikut adalah operator gabungan dalam bahasa C.
+
+| Operator | Contoh    | Ekuivalen Dengan        |
+| :------: | :------:  | :---------------------: |
+| +=	   | `a += b`  |	`a = a + b`      |
+| -=	   | `a -= b`  |	`a = a - b`      |
+| *=	   | `a *= b`  |	`a = a * b`      |
+| /=	   | `a /= b`  |	`a = a / b`      |
+| %=	   | `a %= b`  |	`a = a % b`      |
+| &=	   | `a &= b`  |	`a = a & b`      |
+| \|=	   | `a \|= b` |	`a = a \| b`     |
+| ^=	   | `a ^= b`  |	`a = a ^ b`      |
+| >>=	   | `a >>= b` |	`a = a >> b`     |
+| <<=	   | `a <<= b` |	`a = a << b`     |
+
+## Operator sizeof()
+Walaupun mempunyai bentuk seperti sebuah fungsi, namun dalam standardisasi bahasa C menganggap operator `sizeof()` sebagai operator. Kegunaan dari operator ini adalah untuk mengetahui besarnya alokasi memori sebuah operan (berupa variabel atau tipe data) dalam satuan byte.
+
+Contoh:
+
+```c
+sizeof(int);
+```
+
+## Operator Address-of
+
+Operator  Address-of (`&`) ini mengembalikan alamat memori dari sebuah operan berupa variabel.
+
+Contoh:
+
+```c
+int var;
+printf("%d\n", &var);
+```
+
+## Operator Dereference
+
+Berbeda dari operator address-of (`&`), operator deference (`*`) mengembalikan nilai dari variabel pointer (akan dijelaskan pada modul pointer).
+
+> Meskipun menggunakan simbol yang sama seperti operator perkalian, operator deference mempunyai fungsi yang benar-benar berbeda dari operator perkalian.
+
+## Operator Kondisional 
+
+Operator kondisial (` ? : `) merupakan satu-satunya operator ternary (bekerja pada tiga operan) dalam bahasa C. Fungsi dari operator kondisional layaknya percabangan menggunakan `if - else` (akan dijelaskan pada modul percabangan).
+
+## Operator Koma (`,`)
+
+Tanda koma (`,`) sebagai operator dalam bahasa C merupakan binary operator yang akan mengevaluasi operan pertama, kemudian akan membuang hasilnya. Lalu mengevaluasi operan kedua dan akan mengembalikan nilainya.
+
+```c
+int number = (5, 23);   // number bernilai 23, bukan 5
+```
+
+Selain berfungsi sebagai operator, tanda koma (`,`) juga berfungsi sebagai separator (pemisah) antar statement. Misalkan saat deklarasi lebih dari satu variabel.
+
+```c
+int var1, var2, var3;   
+// Menggunakan tanda koma untuk memisahkan deklarasi tiap variabel
+```
+
+> Tidak semua statement dapat dipisahkan oleh tanda koma.
+
+## Operator Subscript (`[]`)
+
+Penggunaan paling umum operator ini adalah untuk melakukan pengaksesan terhadap elemen suatu array (akan dibahas pada modul array).
+
+_Operator lain yang belum ter-cover pada modul ini akan dibahas pada modul-modul selanjutnya._
 
 [< Kembali ke Daftar Isi](#daftar-isi)

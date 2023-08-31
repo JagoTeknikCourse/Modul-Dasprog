@@ -9,6 +9,7 @@
 * Tipe Data
 * Operator Aritmatika
 * Operator Logika
+* Operator Lain
 
 ### Modul 2 : 
 * 
