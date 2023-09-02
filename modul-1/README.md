@@ -57,6 +57,11 @@
     + [Operator Koma](#operator-koma)
     + [Operator Subsrcipt](#operator-subscript)
 
+- [Latihan](#latihan)
+    + [Latihan 1](#latihan-1)
+    + [Latihan 2](#latihan-2)
+    + [Latihan 3](#latihan-3)
+
 
 # IDE 
 ## (Integrated Development Environment)
@@ -747,3 +752,48 @@ Penggunaan paling umum operator ini adalah untuk melakukan pengaksesan terhadap 
 _Operator lain yang belum ter-cover pada modul ini akan dibahas pada modul-modul selanjutnya._
 
 [< Kembali ke Daftar Isi](#daftar-isi)
+
+# Latihan
+
+## Latihan 1
+
+Buatlah sebuah program dengan output sebagai berikut :
+
+```c
+Hello World!
+"Hello World!"
+\(*o*)\ /(*o*)/
+'Programming is Ez'
+```
+
+## Latihan 2
+
+Buatlah sebuah program dengan dengan ketentuan banyak input yang dipisahkan oleh spasi, kemudian menjumlahkan input pertama dengan kedua, input ketiga dengan keempat, dst :
+
+Input :
+
+```c
+1 2 3 4 5 6
+```
+
+Output :
+
+```c
+3 7 11
+```
+
+## Latihan 3
+
+Buatlah sebuah program yang dapat menghitung luas lingkaran (π = 3.14), dengan jari-jari sebagai input :
+
+Input :
+
+```c
+8
+```
+
+Output :
+
+```c
+200.96
+```
