@@ -10,6 +10,7 @@
 * Operator Aritmatika
 * Operator Logika
 * Operator Lain
+* Latihan
 
 ### Modul 2 : 
 * 
