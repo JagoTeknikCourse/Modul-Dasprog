@@ -6,7 +6,7 @@
     + [Soal 1.3](#Soal-1.3)
     + [Soal 1.4](#Soal-1.4)
 
-- [# Latihan Soal 2 (Pengenalan Bahasa C)](#Latihan-Soal-2-(Pengenalan-Bahasa-C))
+- [Latihan Soal 2 (Pengenalan Bahasa C)](#Latihan-Soal-2-(Pengenalan-Bahasa-C))
     + [Soal 2.1](#Soal-2.1)
     + [Soal 2.2](#Soal-2.2)
     + [Soal 2.3](#Soal-2.3)
