@@ -43,14 +43,14 @@ luas dan kelilingnya.
 contoh Input :
 
 ```c
-jari-jari: 6
+jari-jari: 6.00
 ```
 
 contoh Output :
 
 ```c
-Luas lingkaran: 24
-Keliling lingkaran: 20
+Luas lingkaran: 113.04
+Keliling lingkaran: 37.68
 
 ```
 
