@@ -10,67 +10,81 @@
 # Latihan Soal 1.2 (Pengenalan Bahasa C)
 
 ## Soal 1.2.1
-Buatlah flowchart yang akan mengoutputkan hal seperti berikut
+Buatlah program dalam bahasa C untuk melakukan operasi penjumlahan dua bilangan. 
 
-Output :
+Format Input :
+dua bilangan yang akan dijumlahkan
+
+Format output :
+hasil penjumlahan dua bilangan
+
+contoh Input :
 
 ```c
+masukkan bilangan pertama: 4
+masukkan bilangan kedua: 2
+```
 
+contoh Output :
+
+```c
+hasil penjumlahan: 6
 ```
 
 ## Soal 1.2.2
-Diberikan ..........
+Buatlah program dalam bahasa C untuk menghitung luas dan keliling lingkaran. 
 
 Format Input :
-
+jari-jari lingkaran
 
 Format output :
+luas dan kelilingnya.
 
-
-Input :
+contoh Input :
 
 ```c
-
+jari-jari: 6
 ```
 
-Output :
+contoh Output :
 
 ```c
+Luas lingkaran: 24
+Keliling lingkaran: 20
 
 ```
 
 ## Soal 1.2.3
-space buat soal nya............. 
+Buatlah program dalam bahasa C untuk mengonversi suhu dari Celsius ke Fahrenheit.
 
-Input :
+Format Input :
+suhu dalam celcius 
+
+Format output :
+suhu dalam farenheit
+
+contoh Input :
 
 ```c
-
+Suhu dalam Celcius: 28.00
 ```
 
-Output :
+contoh Output :
 
 ```c
+Suhu dalam Farenheit: 82.40
 
 ```
 
 ## Soal 1.2.4
-space buat soal.......
-
-Format Input :
-
-
-Format output :
-
-
-Input :
-
-```c
-
-```
+Buatlah suatu program yang mengoutputkan hal seperti berikut
 
 Output :
 
 ```c
-
+Halo Dunia!
+"Halo Dunia!"
+\(*o*)\ /(*o*)/
+'Saya sedang belajar bahasa C'
+"Bersama JAGO TEKNIK"
 ```
