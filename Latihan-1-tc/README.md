@@ -15,6 +15,7 @@ Fred adalah seorang astronot yang sedang bertugas pergi ke planet Mars. Dimana s
 Jika Fred berangkat tanggal 29 Februari 2020 dan tiba di Mars pada hari yang sama. Maka input yang diberikan adalah lama Fred berada di Mars, semenjak keberangkatannya dari Bumi, dengan 
 
 Format Input : "<Hari Marso> Hari <Bulan Marso> Bulan <Tahun Marso> Tahun"
+
 Format Output : "Sekarang di Bumi tanggal dd-mm-yy"
 
 Contoh Input 1 :
@@ -44,12 +45,15 @@ Sekarang di Bumi tanggal 24-08-2023
 Rudeus adalah seorang hacker terkenal. Suatu hari dia mendapatkan data berisikan nomor telepon penduduk Wakanda, namun masih terenkripsi dengan baik. Karena Rudeus ingin mendekript data tersebut, ia menemukan bahwa enkripsi yang digunakan adalah algoritma Caesar Chiper. Chaesar Chiper adalah algoritma dengan menggeser nilai ASCII dengan offset tertentu. Bantulah Rudeus membuat program mendekript data-data tersebut. Anggap semua data nomor telepon yang ada berdigit 12 semua.
 
 N : Nomor Telepon Terenkripsi
+
 O : Offset Shifting
 
 0 < N < 999999999999
+
 0 < O < 11
 
 Format Input : "<Nomor Telepon Terenkripsi> <Offset Shifting>"
+
 Format Output : "<Nomor Telepon Sebenarnya>"
 
 Contoh Input 1 :
