@@ -39,3 +39,33 @@ Sekarang di Bumi tanggal 24-08-2023
 
 
 ## Soal 1.2
+Rudeus adalah seorang hacker terkenal. Suatu hari dia mendapatkan data berisikan nomor telepon penduduk Wakanda, namun masih terenkripsi dengan baik. Karena Rudeus ingin mendekript data tersebut, ia menemukan bahwa enkripsi yang digunakan adalah algoritma Caesar Chiper. Chaesar Chiper adalah algoritma dengan menggeser nilai ASCII dengan offset tertentu. Bantulah Rudeus membuat program mendekript data-data tersebut. Anggap semua data nomor telepon yang ada berdigit 12 semua.
+
+N : Nomor Telepon Terenkripsi
+O : Offset Shifting
+
+0 < N < 999999999999
+0 < O < 11
+
+Format Input : "<Nomor Telepon Terenkripsi> <Offset Shifting>"
+Format Output : "<Nomor Telepon Sebenarnya>"
+
+Contoh Input 1 :
+```c
+536012447825 5
+```
+
+Contoh Output 1 :
+```c
+081567992370
+```
+
+Contoh Input 2 :
+```c
+752557064923 7
+```
+
+Contoh Output 2 :
+```c
+085880397256
+```
