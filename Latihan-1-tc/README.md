@@ -39,6 +39,7 @@ Sekarang di Bumi tanggal 24-08-2023
 
 
 ## Soal 1.2
+![Image 1.1](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/Chaesar-Chiper-img.png)
 Rudeus adalah seorang hacker terkenal. Suatu hari dia mendapatkan data berisikan nomor telepon penduduk Wakanda, namun masih terenkripsi dengan baik. Karena Rudeus ingin mendekript data tersebut, ia menemukan bahwa enkripsi yang digunakan adalah algoritma Caesar Chiper. Chaesar Chiper adalah algoritma dengan menggeser nilai ASCII dengan offset tertentu. Bantulah Rudeus membuat program mendekript data-data tersebut. Anggap semua data nomor telepon yang ada berdigit 12 semua.
 
 N : Nomor Telepon Terenkripsi
