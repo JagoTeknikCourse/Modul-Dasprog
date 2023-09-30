@@ -452,20 +452,7 @@ Bilangan real (floating) dituliskan dengan menggunakan pemisah tanda titik (.) a
 
 Literal karakter dituliskan dengan mengapitnya menggunakan tanda petik. Misalnya karakter A ditulis ‘A’. Selain karakter normal, terdapat karakter khusus dalam bahasa C yang mempunyai fungsi-fungsi khusus atau karakter yang tidak bisa begitu saja dituliskan dengan bentuk aslinya. Misalnya, “new line” direpresentasikan dengan ‘\n’, simbol backslash direpresentasikan dengan ‘\\’. Karakter-karakter tersebut disebut dengan escape sequence. Berikut adalah escape sequence yang terdapat dalam bahasa C.
 
-| Escape Sequence | Karakter            |
-|-----------------|:--------------------|
-| `\b`            | Backspace           |
-| `\f`            | Form feed           |
-| `\n`            | Newline             |
-| `\r`            | Return              |
-| `\t`            | Tab horisontal      |
-| `\v`            | Tab vertikal        |
-| `\\`            | Backslash           |
-| `\’`            | Tanda petik         |
-| `\”`            | Tanda petik dua     |
-| `\?`            | Tanda tanya         |
-| `\0`            | Karakter null       |
-| `\b`            | Backspace           |
+![cek tabel escape sequence](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/escape-sequence.md)
 
 
 ### String
