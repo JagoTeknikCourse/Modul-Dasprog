@@ -81,7 +81,7 @@ contoh Output 2:
 
 ## EVALUASI 1.2 (PENGENALAN BAHASA C)
 
-### Soal 1.1.1
+### Soal 1.2.1
 Buatlah program dalam bahasa C untuk melakukan operasi perpangkatan dua bilangan. jika input m dan n maka outputnya adalah m pangkat n
 
 Format Input :
@@ -103,7 +103,7 @@ contoh Output :
 hasil penrpangkatan: 36
 ```
 
-### Soal 1.1.2
+### Soal 1.2.2
 Buatlah program dalam bahasa C untuk menghitung volume dan luas permukaan tabung. output harus menyertakan 2 angka dibelakang koma
 
 Format Input :
@@ -128,23 +128,117 @@ Luas permukaan : 351.86
 
 ```
 
-### Soal 1.1.3
-Buat program dalam bahasa C yang menghitung faktorial dari sebuah bilangan bulat positif (N!). Program harus menerima input dari pengguna dan mencetak hasil faktorialnya.
+### Soal 1.2.3
+Buatlah program dalam bahasa C untuk mengonversi suhu dari farenheit ke Reamur.
 
 Format Input :
-N
+suhu dalam farenheit 
 
 Format output :
-N! 
+suhu dalam reamur
+
 contoh Input :
 
 ```c
-5
+Suhu dalam farenheit: 102.5
 ```
 
 contoh Output :
 
 ```c
-120
+Suhu dalam reamur: 31.3
 
+```
+## Soal 1.2.4
+Buatlah suatu program yang mengoutputkan hal seperti berikut
+
+Output :
+
+```c
+Halo Kakak Tutor!
+"Halo Kakak Tutor!"
+\(*o*)\ /(*o*)/
+'Saya sedang mengerjakan evaluasi'
+"apakah jawaban saya tepat"
+```
+
+
+## EVALUASI 1.3 (PERCABANGAN)
+
+### Soal 1.3.1
+Buat program dalam bahasa C yang meminta pengguna memasukkan sebuah bilangan bulat. Program harus menentukan apakah bilangan tersebut positif atau negatif dan mencetak hasilnya.
+
+Format Input :
+N
+
+Format output :
+bilangan N adalah (negatif atau positif)
+
+contoh Input :
+
+```c
+-20
+```
+
+contoh Output : 
+
+```c
+bilangan -20 adalah negatif
+```
+
+### Soal 1.3.2
+Buat program dalam bahasa C yang meminta pengguna memasukkan sebuah angka dari 1 hingga 7 yang mewakili hari dalam seminggu (1 untuk Senin, 2 untuk Selasa, dan seterusnya). Program harus mencetak nama hari yang sesuai.
+
+Format Input :
+hari ke: N
+
+Format output :
+hari ke N adalah ..... (nama hari)
+
+contoh Input :
+
+```c
+hari ke: 4
+```
+
+contoh Output :
+
+```c
+hari ke 4 adalah kamis
+
+```
+
+### Soal 1.3.3
+Buat program dalam bahasa C yang meminta pengguna memasukkan total pembelanjaan mereka. Program harus memberikan diskon sebesar 10% jika total pembelanjaan lebih dari atau sama dengan 1000 dan mencetak total pembayaran setelah diskon.
+
+Format Input :
+total belanjaan: N
+
+Format output :
+total belanjaan N (dapat / tidak dapat) diskon
+yang harus dibayar: 
+
+contoh Input 1:
+
+```c
+800
+```
+
+contoh Output 1:
+
+```c
+total belanjaan 800 tidak dapat diskon
+yang harus dibayar: 800
+```
+contoh Input 2:
+
+```c
+2200
+```
+
+contoh Output 2:
+
+```c
+total belanjaan 2200 dapat diskon
+yang harus dibayar: 1980
 ```
