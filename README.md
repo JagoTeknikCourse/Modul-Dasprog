@@ -10,11 +10,17 @@
 * Operator Aritmatika
 * Operator Logika
 * Operator Lain
+* Latihan
 
-### Modul 2 : 
-* 
-* 
-* 
+### Modul 2 : Percabangan
+* Control Flow
+* Percabangan
+    - If
+    - If-Else
+    - If-Else if
+    - Switch-Case
+* Operator Kondisional ( ? : )
+* Latihan
 
 ### Modul 3 :
 * 
