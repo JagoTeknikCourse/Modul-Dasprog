@@ -1,4 +1,4 @@
-# EVVALUASI 1
+# EVALUASI 1
 
 ## EVALUASI 1.1 (FLOWCHART)
 > **perhatian!!** ini adalah soal untuk membuat flowchart dimana ditekankan terhadap pola berpikir dan logika. tidak perlu hingga membuat coding nya
