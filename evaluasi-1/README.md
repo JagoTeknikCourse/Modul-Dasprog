@@ -19,8 +19,8 @@ Format Input :
 N
 
 Format output :
-jika genap = "bilangan ini prima"
-jika ganjil = "bilangan ini tidak prima"
+jika prima = "bilangan ini prima"
+jika tidak = "bilangan ini tidak prima"
 
 contoh Input:
 
