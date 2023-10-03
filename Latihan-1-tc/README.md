@@ -35,7 +35,7 @@ Contoh Input 2 :
 
 Contoh Output 2 :
 ```c
-Sekarang di Bumi tanggal 24-08-2023
+Sekarang di Bumi tanggal 24-08-2020
 ```
 
 
