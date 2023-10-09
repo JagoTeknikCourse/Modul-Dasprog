@@ -8,6 +8,10 @@
     + [Switch-Case](#percabangan-switch-case)
     + [Operator Kondisional ( ? : )](#operator-kondisional--)
 - [Soal Latihan](#soal-latihan)
+    + [Latihan 1](#latihan-1)
+    + [Latihan 2](#latihan-2)
+    + [Latihan 3](#latihan-3)
+
 
 # Control Flow
 Control Flow adalah cara kita mengatur jalan penyataan, instruksi, dan pemanggilan fungsi  suatu program. Tanpa control flow, program kita hanya bergerak dari atas ke bawah saja (**sequential**). Dengan control flow, suatu insruksi akan dieksekusi jika logika nya terpenuhi. Dalam bahasa C terdapat 2 jenis control flow, yaitu percabangan (**selection**) dan perulangan (**repetition**). Di Modul ini, kita akan membahas percabangan terlebih dahulu.

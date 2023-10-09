@@ -57,7 +57,7 @@
     + [Operator Koma](#operator-koma)
     + [Operator Subsrcipt](#operator-subscript)
 
-- [Latihan](#latihan)
+- [Soal Latihan](#latihan)
     + [Latihan 1](#latihan-1)
     + [Latihan 2](#latihan-2)
     + [Latihan 3](#latihan-3)

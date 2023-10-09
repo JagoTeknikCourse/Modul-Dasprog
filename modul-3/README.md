@@ -6,6 +6,10 @@
     + [Perulangan Bersarang](#perulanganpercabangan-bersarang-nested)
 - [Break dan Continue](#break-dan-continue)
 - [Infinite Loop](#infinite-loop)
+- [Soal Latihan](#soal-latihan)
+    + [Latihan 1](#latihan-1)
+    + [Latihan 2](#latihan-2)
+    + [Latihan 3](#latihan-3)
 
 
 # Perulangan
@@ -204,3 +208,40 @@ int main()
 }
 ```
 
+# Soal Latihan
+
+## Soal 1
+
+Buatlah program yang menggunakan perulangan for untuk mencetak angka dari n hingga 0 dengan langkah pengurangan 2.
+
+**Sample Input 1**
+```
+12
+```
+**Sample Output 1**
+```
+12 10 8 6 4 2 0
+```
+
+**Sample Input 2**
+```
+15
+```
+**Sample Output 2**
+```
+15 13 11 9 7 5 3 1 0
+```
+
+## Soal 2
+
+Buatlah program yang menggunakan perulangan for untuk menghitung faktorial dari suatu bilangan. Faktorial dari bilangan n (dinyatakan sebagai n!) adalah hasil perkalian semua bilangan bulat dari 1 hingga n.
+
+**Sample Input 1**
+```
+Input bilangan bulat positif: 5
+
+```
+**Sample Output 1**
+```
+Faktorial dari 5 adalah 120
+```
