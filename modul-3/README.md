@@ -239,9 +239,17 @@ Buatlah program yang menggunakan perulangan for untuk menghitung faktorial dari 
 **Sample Input 1**
 ```
 Input bilangan bulat positif: 5
-
 ```
 **Sample Output 1**
 ```
 Faktorial dari 5 adalah 120
+```
+
+**Sample Input 2**
+```
+Input bilangan bulat positif: 10
+```
+**Sample Output 2**
+```
+Faktorial dari 5 adalah 3628800
 ```
