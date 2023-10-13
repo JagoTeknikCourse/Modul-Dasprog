@@ -1,16 +1,17 @@
 ## Daftar Isi
 
-- [Latihan Soal 2.2 (Persiapan ETS)](#Latihan-Soal-1.2-(Persiapan ETS))
-    + [Soal 2.1](#Soal-1.2.1)
-    + [Soal 2.2](#Soal-1.2.2)
-    + [Soal 2.3](#Soal-1.2.3)
-    + [Soal 2.4](#Soal-1.2.4)
+- [Practice 2 (ETS Preparation)](#Practice-2-(ETS Preparation))
+    + [Question 2.1](#Question-2.1)
+    + [Question 2.2](#Question-2.2)
+    + [Question 2.3](#Question-2.3)
+    + [Question 2.4](#Question-2.4)
+    + [Question 2.5](#Question-2.5)
 
-# Latihan Soal 2 (Persiapan ETS)
+# Practice-2 (ETS Preparation)
 
-## Soal 2.1
+## Question 2.1
 
-Buatlah sebuah program untuk menentukan banyak n suku dari Bilangan Fibonacci
+Create a program to determine the number of n terms of the Fibonacci Number
 
 **Format Input :**
 
@@ -25,21 +26,21 @@ fibonacci number (int)
 0 < n < 100
 
 
-Contoh Input :
+Example Input :
 
 ```c
 5
 ```
 
-Contoh Output :
+Example Output :
 
 ```c
 0, 1, 1, 2, 3
 ```
 
-## Soal 2.2
+## Question 2.2
 
-Buatlah sebuah program untuk menentukan hasil faktorial dari suatu bilangan A, berapa banyak angka prima pada digit tersebut
+Create a program to determine the factorial result of a number A, how many primes there are in that digit
 
 
 **Format Input :**
@@ -55,35 +56,35 @@ factorial_result (int), total_prime (int)
 
 0 < n < 100
 
-2 < digit angka prima < 10
+2 < Prime in Digits < 10
 
-Contoh Input 1 :
+Example Input 1 :
 
 ```c
 5
 ```
 
-Contoh Output 1 :
+Example Output 1 :
 
 ```c
 120, 0
 ```
 
-Contoh Input 2 :
+Example Input 2 :
 
 ```c
 7
 ```
 
-Contoh Output 2 :
+Example Output 2 :
 
 ```c
 5040, 1
 ```
 
-## Soal 2.3
+## Question 2.3
 
-Buatlah program yang dapat mengubah bilangan decimal ke bilangan hexadecimal
+Create a program that can convert decimal numbers to hexadecimal numbers
 
 
 **Format input :**
@@ -100,21 +101,21 @@ hex (int)
 0 <= dec < 1024
 
 
-Contoh Input :
+Example Input :
 
 ```c
 456
 ```
 
-Contoh Output :
+Example Output :
 
 ```c
 1C8
 ```
 
-## Soal 2.4
+## Question 2.4
 
-Buatlah program yang dapat menghitung persamaan 3 variabel berikut menggunakan Aturan Crammer
+Create a program that can calculate the equation of the following 3 variables using Crammer's Rule
 
 A x1 + B x2 + C x3 = X
 
@@ -127,7 +128,7 @@ G x1 + H x2 + I x3 = Z
 
 0 <= A, B, C, D, E, F, G, H, I, X, Y, Z < 100
 
-Contoh Input :
+Example Input :
 
 ```c
 4 2 1
@@ -138,7 +139,7 @@ Y = -3
 Z = 8
 ```
 
-Contoh Output :
+Example Output :
 
 ```c
 x1 = 3
@@ -146,9 +147,9 @@ x2 = 2
 x1 = 1
 ```
 
-## Soal 2.5
+## Question 2.5
 
-Berikut adalah program untuk bermain Tic-tac-toe secara multiplayer, namun karena beberapa hal program tersebut masih error ketika dijalankan. Temukan kesalahannya dan jelaskan mengapa terjadi error!
+Here is a program to play Tic-tac-toe in multiplayer, but because of some things the program still errors when running. Find the error and explain why the error occurred!
 
 ```c
 #include <stdio.h>
