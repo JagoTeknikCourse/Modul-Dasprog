@@ -12,15 +12,15 @@
 
 Buatlah sebuah program untuk menentukan banyak n suku dari Bilangan Fibonacci
 
-Format Input :
+**Format Input :**
 
 n (integer)
 
-Format Output :
+**Format Output :**
 
 fibonacci number (int)
 
-Constrain :
+**Constrain :**
 
 0 < n < 100
 
@@ -42,16 +42,16 @@ Contoh Output :
 Buatlah sebuah program untuk menentukan hasil faktorial dari suatu bilangan A, berapa banyak angka prima pada digit tersebut
 
 
-Format Input :
+**Format Input :**
 
 n (integer)
 
-Format Output :
+**Format Output :**
 
 factorial_result (int), total_prime (int)
 
 
-Constrain :
+**Constrain :**
 
 0 < n < 100
 
@@ -86,16 +86,16 @@ Contoh Output 2 :
 Buatlah program yang dapat mengubah bilangan decimal ke bilangan hexadecimal
 
 
-Format input :
+**Format input :**
 
 dec (int)
 
-Foramt Output :
+**Foramt Output :**
 
 hex (int)
 
 
-Constrain :
+**Constrain :**
 
 0 <= dec < 1024
 
@@ -115,12 +115,15 @@ Contoh Output :
 ## Soal 2.4
 
 Buatlah program yang dapat menghitung persamaan 3 variabel berikut menggunakan Aturan Crammer
+
 A x1 + B x2 + C x3 = X
+
 D x1 + E x2 + F x3 = Y
+
 G x1 + H x2 + I x3 = Z
 
 
-Constrain :
+**Constrain :**
 
 0 <= A, B, C, D, E, F, G, H, I, X, Y, Z < 100
 
