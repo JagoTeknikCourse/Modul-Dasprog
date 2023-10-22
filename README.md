@@ -23,9 +23,14 @@
 * Latihan
 
 ### Modul 3 :
-* 
-* 
-* 
+* Perulangan
+    - Perulangan While
+    - Perulangan Do-While
+    - Perulangan For
+    - Perulangan Bersarang
+* Break dan Continue
+* Infinite Loop
+* Latihan
 
 ### Modul 4 :
 * 

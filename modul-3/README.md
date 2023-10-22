@@ -7,9 +7,9 @@
 - [Break dan Continue](#break-dan-continue)
 - [Infinite Loop](#infinite-loop)
 - [Soal Latihan](#soal-latihan)
-    + [Latihan 1](#latihan-1)
-    + [Latihan 2](#latihan-2)
-    + [Latihan 3](#latihan-3)
+    + [Soal 1](#soal-1)
+    + [Soal 2](#soal-2)
+    
 
 
 # Perulangan
