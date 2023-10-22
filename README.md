@@ -33,7 +33,47 @@
 * Latihan
 
 ### Modul 4 :
+* Array
+    - Pengenalan Array
+    - Deklarasi Array
+    - Inisialisasi Array
+    - Mengakses Array
+    - Dimensi Array
+        + Array Satu Dimensi
+        + Array Multidimensi
+* Latihan
+
+### Modul 5 :
+* String
+    - Pengenalan String
+    - Representasi String
+    - Fungsi-Fungsi String
+        + Fungsi `strcpy`
+        + Fungsi `strcat`
+        + Fungsi `strcmp`
+        + Fungsi `strlen`
+* Latihan
+
+### Modul 6 :
+* 
+* 
 * 
 * 
 
+### Modul 7 :
+* 
+* 
+* 
+* 
 
+### Modul 8 :
+* 
+* 
+* 
+* 
+
+### Modul 9 :
+* 
+* 
+* 
+* 
