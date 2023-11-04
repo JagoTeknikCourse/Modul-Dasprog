@@ -55,25 +55,14 @@
 * Latihan
 
 ### Modul 6 :
-* 
-* 
-* 
-* 
-
-### Modul 7 :
-* 
-* 
-* 
-* 
-
-### Modul 8 :
-* 
-* 
-* 
-* 
-
-### Modul 9 :
-* 
-* 
-* 
-* 
+* Fungsi
+    - Pengenalan dan Tujuan Fungsi
+    - Pendefinisian Fungsi
+    - Prototipe Fungsi
+    - Parameter Fungsi
+    - Pemanggilan Fungsi
+    - Nilai *return* Fungsi
+* Fungsi Rekursif
+    - Pengenalan Rekursi
+    - *Recursive Case* dan *Base Case*
+* Latihan
