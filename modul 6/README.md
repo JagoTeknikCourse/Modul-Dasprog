@@ -187,11 +187,11 @@ _**Recursive Case**_ adalah kasus dimana sebuah fungsi diharuskan untuk memanggi
 
 Kita ambil contoh fungsi rekursif untuk memangkatkan suatu bilangan bulat. Didefinisikan perpangkatan sebuah bilangan **a** pangkat **m** sebagai **`power(a, m)`**, berarti dapat dituliskan:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;m)=a\times&space;a\times&space;a\times&space;\cdots&space;(m-kali)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;m)=a\times&space;a\times&space;a\times&space;\cdots&space;(m-kali)" title="power(a, m)=a\times a\times a\times \cdots (m-kali)" /></a>
+![image](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/power(a%2Cm).jpg)
 
 Atau dapat didefinisikan sebagai fungsi rekursif:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;m)=a\times&space;power(a,m-1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;m)=a\times&space;power(a,m-1)" title="power(a, m)=a\times power(a,m-1)" /></a>
+![image](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/rekursif%20power(a%2Cm).jpg)
 
 Dengan *base case*-nya adalah:
 
