@@ -1,10 +1,13 @@
 ## Daftar Isi
 - [Fungsi](#fungsi)
+   + [Pengenalan dan Tujuan Fungsi](#pengenalan-dan-tujuan-fungsi)
    + [Pendefinisian Fungsi](#pendefinisian-fungsi)
    + [Prototipe Fungsi](#prototipe-fungsi)
    + [Parameter Fungsi](#parameter-fungsi)
+   + [Pemanggilan Fungsi](#pemanggilan-fungsi)
    + [Nilai *return* Fungsi](#nilai-return-fungsi)
 - [Fungsi Rekursif](#fungsi-rekursif)
+   + [Pengenalan Rekursi](#pengenalan-rekursi)
    + [*Recursive Case* dan *Base Case*](#recursive-case-dan-base-case)
 - [Soal Latihan](#soal-latihan)
     + [Soal 1](#soal-1)
@@ -15,12 +18,11 @@
 
 # Fungsi
 
-## Pengenalan Fungsi
+## Pengenalan dan Tujuan Fungsi
 Fungsi adalah sebuah kumpulan **statement** untuk melakukan tugas spesifik, yang bisa membutuhkan *input* ataupun tidak, untuk menghasilkan *output* yang sesuai.
 
 Secara umum, fungsi dibedakan menjadi dua, yakni fungsi *Standard Library* dan fungsi yang dibuat pengguna. **Fungsi *Standard Library*** adalah fungsi bawaan yang telah disertakan dalam *library* standar, misal fungsi printf(), scanf() yang ada di dalam *library* <stdio.h>. Sedangkan **fungsi yang dibuat oleh pengguna** (*user-defined*) adalah fungsi yang sengaja dibuat oleh pengguna untuk memenuhi keperluan pengguna dalam membuat program.
 
-## Tujuan Fungsi
 Tujuan dibuatnya fungsi secara umum adalah untuk membuat program menjadi lebih modular. Fungsi digunakan ketika ingin menjalankan serangkaian perintah secara berulang kali, terkadang dengan input yang berbeda, dengan tujuan **tidak mengulang penulisan kode berkali-kali**, serta apabila nantinya program mengalami bug akan mempermudah proses perbaikan.
 
 ## Pendefinisian Fungsi
