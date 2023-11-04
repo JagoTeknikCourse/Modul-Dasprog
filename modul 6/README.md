@@ -195,7 +195,7 @@ Atau dapat didefinisikan sebagai fungsi rekursif:
 
 Dengan *base case*-nya adalah:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;0)=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;0)=&space;1" title="power(a, 0)= 1" /></a>
+![image](https://github.com/JagoTeknikCourse/Modul-Dasprog/blob/main/img/base%20case%20rekursif.jpg)
 
 Dapat diperhatikan bahwa *base case* dari fungsi `power(a, m)` adalah ketika `power(a, 0)` yang menghasilkan 1. Ketika sudah mencapai *base case*, maka tidak perlu melakukan pemanggilan fungsi itu lagi.
 
@@ -260,46 +260,3 @@ Buatlah program yang mengimplementasikan fungsi untuk menentukan bilangan terbes
 max: 5
 min: 1
 ```
-
-<!---
-Diberikan suatu angka, pastikan apakah suatu angka tersebut dapat menyentuh angka 42 atau tidak, dengan ketentuan:
-1. Jika angka itu genap, maka angka tersebut dikurangi setengahnya.
-2. Jika angka itu bisa dibagi 3 atau 4, maka angka tersebut dikurangi dari hasil perkalian 2 digit terakhir
-3. Jika angka itu bisa dibagi 5, maka angka itu dikurangi 42.
-
-**Gunakan fungsi rekursif.**
-
-**Input Format**
-
-Baris pertama adalah T yang menunjukkan jumlah test case. Baris selanjutnya adalah sebuah angka sebanyak T.
-
-**Output Format**
-
-Jika bisa menyentuh angka 42, print "Bisa".
-Jika tidak, print "Tidak".
-
-**Sample Input**
-```
-1
-250
-```
-
-**Sample Output**
-```
-Bisa
-```
-
-**Penjelasan**
-
-Angka = 250
-+ 250 bisa dibagi 5, maka 250 dikurangi 42 menjadi 208.
-+ 208 angka genap, maka 208 dikurangi 104 menjadi 104.
-+ 104 angka genap, maka 104 dikurangi 52 menjadi 52.
-+ 52 bisa dibagi 4 maka 52 dikurangi (5*2) menjadi 42.
-Karena sudah menyentuh 42 maka mengeluarkan output "Bisa"
-
-**Constraints**
-
-+ 1 ≤ T ≤ 5000
-+ 1 ≤ N ≤ 1000000000
----!>
